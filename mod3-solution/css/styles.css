@@ -1,0 +1,110 @@
+* {
+  font-family: Comic Sans MS, Comic Sans, cursive;
+}
+
+body {
+  background-color: white;
+  color: black;
+}
+#header-nav {
+  background-color: grey;
+  border-radius: 0;
+  border: 0; 
+}
+
+.navbar-brand {
+  padding-top: 18px;
+}
+
+.navbar-brand h1 { /* Restaurant name */
+  color: black;
+  font-size: 1.5em;
+  text-transform: uppercase;
+  text-shadow: 1px 1px 1px #222;
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: 0.75;
+  margin-left: 20px;
+} 
+.navbar-brand a:hover, .navbar-brand a:focus {
+  text-decoration: none;
+}
+
+.navbar-header button.navbar-toggle {
+  color: black;
+}
+
+#nav-list a {
+  background-color: white;
+  color: black;
+  text-align: center;
+  width: 100%;
+  border: 1px solid black;
+}
+
+#nav-list a:hover{
+  background: grey;
+}
+#nav-list a span {
+  font-size: 1.8em;
+}
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+  border: 2px solid black;
+  color: black;
+}
+.navbar-header button.navbar-toggle {
+  margin-top: 10px;
+}
+
+h2{
+  padding-top: 10px;
+}
+
+#content {
+  background-color: grey;
+  position: relative;
+  padding-top: 30px;
+}
+#content input {
+  height: 100%;
+  width: 100%;
+}
+#content span {
+  position: absolute; 
+  width: 100%;
+  top: -20px;
+  font-size: 1.5em;
+  font-weight: bold;
+  text-align: center;
+}
+.row{
+  margin: 20px 20px 20px 20px;
+}
+
+@media (min-width: 1200px) {
+  .nav-brand h1 {
+    margin-left: 20px;
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1199px) { 
+  .nav-brand h1 {
+    margin-left: 20px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .nav-brand h1 {
+    margin-left: 20px;
+  }
+
+}
+
+@media (max-width: 479px) {
+  /* Header */
+  .navbar-brand h1 { /* Restaurant name */
+    padding-top: 5px;
+    font-size: 6vw;
+  }
+}
